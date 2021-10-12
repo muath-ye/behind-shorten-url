@@ -1,0 +1,30 @@
+{
+    "name": "muath-ye/behind-shorten-url",
+    "description": "Get the Original URL behind a Shortened link.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muathye",
+            "email": "muath.ye@gmail.com"
+        }
+    ],
+    "keywords": [
+        "muath-ye",
+        "carbon",
+        "get_shorten_url",
+        "helper"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
